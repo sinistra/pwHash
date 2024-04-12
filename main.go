@@ -19,7 +19,7 @@ const (
 	  match [password] [hash] Outcome=true if correct
 	  cost  [hash]            Prints the cost of the hash encryption
 	
-	Note: Your terminal may require the hash to be escaped`
+	Note: Your terminal may require the hash to be escaped. (ie wrap it in 'single quotes')`
 )
 
 type args struct {
